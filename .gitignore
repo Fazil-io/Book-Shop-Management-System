@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production builds
+dist/
+client/dist/
+dist-ssr/
+client/dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# SQLite Database & Storage
+server/data/*.db
+server/data/*.db-wal
+server/data/*.db-shm
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Media & screen recordings
+*.mov
+*.mp4
+Screen Recording*
+
+# OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo

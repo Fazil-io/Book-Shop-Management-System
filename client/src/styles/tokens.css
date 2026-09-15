@@ -1,0 +1,128 @@
+/* ==========================================================================
+   VIJAY BOOK STORE DESIGN SYSTEM - TOKENS
+   Professional Clean White (Light) & Sleek Slate (Dark)
+   ========================================================================== */
+
+:root {
+  /* Typography */
+  --font-display: 'Cinzel', serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Common radii & transitions */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* --------------------------------------------------------------------------
+   PROFESSIONAL CLEAN WHITE THEME (Light Mode)
+   -------------------------------------------------------------------------- */
+[data-theme="parchment"], [data-theme="white"], :root {
+  --bg-app: #F8FAFC;
+  --bg-surface: #FFFFFF;
+  --bg-surface-elevated: #F1F5F9;
+  --bg-surface-subtle: #FAFAFA;
+  --bg-glass: rgba(255, 255, 255, 0.96);
+  --bg-overlay: rgba(15, 23, 42, 0.45);
+
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+  --text-inverse: #FFFFFF;
+
+  --border-subtle: #E2E8F0;
+  --border-medium: #CBD5E1;
+  --border-strong: #94A3B8;
+  --border-focus: #1E40AF;
+
+  /* Executive Brand Accents (Deep Corporate Indigo & Subtle Gold) */
+  --accent-gold: #1E40AF;
+  --accent-gold-hover: #1D4ED8;
+  --accent-gold-subtle: #EFF6FF;
+  --accent-amber: #D97706;
+  --accent-leather: #3B82F6;
+
+  /* Status Colors */
+  --status-success: #059669;
+  --status-success-bg: #ECFDF5;
+  --status-success-border: #A7F3D0;
+
+  --status-warning: #D97706;
+  --status-warning-bg: #FFFBEB;
+  --status-warning-border: #FDE68A;
+
+  --status-danger: #DC2626;
+  --status-danger-bg: #FEF2F2;
+  --status-danger-border: #FECACA;
+
+  --status-info: #2563EB;
+  --status-info-bg: #EFF6FF;
+  --status-info-border: #BFDBFE;
+
+  /* Subtle Crisp Shadows */
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 14px -2px rgba(15, 23, 42, 0.07), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 10px 25px -3px rgba(15, 23, 42, 0.09), 0 4px 10px -2px rgba(15, 23, 42, 0.04);
+  --shadow-glow: 0 0 16px rgba(37, 99, 235, 0.2);
+}
+
+/* --------------------------------------------------------------------------
+   DARK THEME
+   -------------------------------------------------------------------------- */
+[data-theme="obsidian"] {
+  --bg-app: #0F172A;
+  --bg-surface: #1E293B;
+  --bg-surface-elevated: #334155;
+  --bg-surface-subtle: #1E293B;
+  --bg-glass: rgba(30, 41, 59, 0.92);
+  --bg-overlay: rgba(0, 0, 0, 0.75);
+
+  --text-primary: #F8FAFC;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  --text-inverse: #0F172A;
+
+  --border-subtle: rgba(255, 255, 255, 0.1);
+  --border-medium: rgba(255, 255, 255, 0.18);
+  --border-strong: rgba(255, 255, 255, 0.28);
+  --border-focus: #38BDF8;
+
+  /* Brand Accents */
+  --accent-gold: #38BDF8;
+  --accent-gold-hover: #0EA5E9;
+  --accent-gold-subtle: rgba(56, 189, 248, 0.15);
+  --accent-amber: #FBBF24;
+  --accent-leather: #38BDF8;
+
+  /* Status Colors */
+  --status-success: #34D399;
+  --status-success-bg: rgba(52, 211, 153, 0.14);
+  --status-success-border: rgba(52, 211, 153, 0.35);
+
+  --status-warning: #FBBF24;
+  --status-warning-bg: rgba(251, 191, 36, 0.14);
+  --status-warning-border: rgba(251, 191, 36, 0.35);
+
+  --status-danger: #F87171;
+  --status-danger-bg: rgba(248, 113, 113, 0.14);
+  --status-danger-border: rgba(248, 113, 113, 0.35);
+
+  --status-info: #60A5FA;
+  --status-info-bg: rgba(96, 165, 250, 0.14);
+  --status-info-border: rgba(96, 165, 250, 0.35);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 18px -2px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.06);
+  --shadow-lg: 0 16px 36px -4px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  --shadow-glow: 0 0 20px rgba(56, 189, 248, 0.28);
+}
